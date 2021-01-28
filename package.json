@@ -1,0 +1,30 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "First Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvraamBukaya/NodeJs.git"
+  },
+  "author": "Avraham Bukaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AvraamBukaya/NodeJs/issues"
+  },
+  "homepage": "https://github.com/AvraamBukaya/NodeJs#readme",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "lodash": "^4.17.20",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2"
+  },
+  "bundleDependencies": [
+    "request"
+  ]
+}
